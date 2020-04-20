@@ -37,7 +37,7 @@ Result:
 
 ### Parameters
 
-###### wait
+#### wait
 
 The parameter `wait` defined to avoid performing a lot of successive requests in a small amount of time. Its default value is set to 3 seconds, but you can be initialised as follows (set up to 10 seconds):
 
@@ -55,14 +55,14 @@ gs.setParams(parameters)
 
 ### Methods
 
-###### getParams
+#### getParams
 
 Get the class parameters
 
 **return** obj: the class parameters
 
 
-###### setParams
+#### setParams
 
 Set the class parameters
 
@@ -70,7 +70,7 @@ Set the class parameters
 * obj params: the new values for the class parameters
 
 
-###### getEntity
+#### getEntity
 
 Get entity, whether it's an user or an organisation
 
@@ -80,7 +80,7 @@ Get entity, whether it's an user or an organisation
 **return** obj: the entity info
 
 
-###### getUser
+#### getUser
 
 Get user info
 
@@ -91,7 +91,7 @@ Get user info
 **return** obj: the user info
 
 
-###### getOrganisation
+#### getOrganisation
 
 Get organisation info
 
@@ -102,7 +102,7 @@ Get organisation info
 **return** obj: the organisation info
 
 
-###### getPeople
+#### getPeople
 
 Get list of people linked to an organisation
 
@@ -112,7 +112,7 @@ Get list of people linked to an organisation
 **return** list: the users' handles
 
 
-###### getRepositories
+#### getRepositories
 
 Get list of repositories for a given user or organisation
 
@@ -127,7 +127,7 @@ Get list of repositories for a given user or organisation
 * getRepositoriesFromOrganisation
 
 
-###### getRepositoriesFromTopic
+#### getRepositoriesFromTopic
 
 Get list of repositories for a given topic
 
