@@ -37,7 +37,7 @@ Result:
 
 ### Parameters
 
-#### wait
+#### _wait_
 
 The parameter `wait` defined to avoid performing a lot of successive requests in a small amount of time. Its default value is set to 3 seconds, but you can be initialised as follows (set up to 10 seconds):
 
@@ -55,85 +55,92 @@ gs.setParams(parameters)
 
 ### Methods
 
-#### getParams
+#### _getParams_
 
 Get the class parameters
 
-**return** obj: the class parameters
+###### return
+obj: the class parameters
 
 
-#### setParams
+#### _setParams_
 
 Set the class parameters
 
-**param** 
-* obj params: the new values for the class parameters
+###### param 
+* obj *params*: the new values for the class parameters
 
 
-#### getEntity
+#### _getEntity_
 
 Get entity, whether it's an user or an organisation
 
-**param**
-* string name: name of the entity to request
+###### param
+* string *name*: name of the entity to request
 
-**return** obj: the entity info
+###### return
+obj: the entity info
 
 
-#### getUser
+#### _getUser_
 
 Get user info
 
-**param**
-* string name: name of the user
-* xmltree page (optional): use the page passed as a parameter
+###### param
+* string *name*: name of the user
+* xmltree *page* (optional): use the page passed as a parameter
 
-**return** obj: the user info
+###### return
+obj: the user info
 
 
-#### getOrganisation
+#### _getOrganisation_
 
 Get organisation info
 
-**param**
-* string name: name of the organisation
-* param xmltree page (optional): use the page passed as a parameter
+###### param
+* string *name*: name of the organisation
+* xmltree *page* (optional): use the page passed as a parameter
 
-**return** obj: the organisation info
+###### return
+obj: the organisation info
 
 
-#### getPeople
+#### _getPeople_
 
 Get list of people linked to an organisation
 
-**param**
-* string name: name of the organisation
+###### param
+* string *name*: name of the organisation
 
-**return** list: the users' handles
+###### return
+list: the users' handles
 
 
-#### getRepositories
+#### _getRepositories_
 
 Get list of repositories for a given user or organisation
 
-**param**
-* string name: name of the user/organisation
+###### param
+* string *name*: name of the user/organisation
 
-**return** list: objects containing informations concerning the repositories
+###### return
+list: objects containing information concerning the repositories
 
-**alias** 
-* getRepositoriesFromEntity
-* getRepositoriesFromUser
-* getRepositoriesFromOrganisation
+###### alias
+* _getRepositoriesFromEntity_
+* _getRepositoriesFromUser_
+* _getRepositoriesFromOrganisation_
 
 
-#### getRepositoriesFromTopic
+#### _getRepositoriesFromTopic_
 
 Get list of repositories for a given topic
 
-**param**
-* string name: name of the user
-* xmltree page (optional): use the page passed as a parameter
+###### param
+* string *name*: name of the user
+* xmltree *page* (optional): use the page passed as a parameter
 
-**return** obj: the user info
+###### return
+obj: the user info
 
